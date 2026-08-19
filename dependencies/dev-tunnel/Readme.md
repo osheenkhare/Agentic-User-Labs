@@ -27,7 +27,7 @@ NOTE: Login with the same account that you are using for Microsoft 365 test acco
 For the samples for this lab, we will be creating a dev tunnel for the local agent, by default it runs on port 3978. You can create a dev tunnel for this port using the following command:
 
 ```
-devtunnel host -p 3978
+devtunnel host -p 3978 --allow-anonymous
 ```
 
 Expected output (example):

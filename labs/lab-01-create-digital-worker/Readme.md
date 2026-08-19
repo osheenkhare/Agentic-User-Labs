@@ -1,6 +1,10 @@
-# Agentic User Setup
+# Lab 01 - Create a Digital Worker
 
-Follow these steps to create an agent blueprint and identity, provision an agentic user, and make the user available in Microsoft Teams.
+⏰ Estimated time: 40 min
+
+## Overview
+
+This lab will walk you through the steps to create a discoverable Digital Worker (DW) in Microsoft 365. A Digital Worker is a specialized type of agentic user that can be discovered and interacted with across Microsoft 365 applications, such as Teams and Viva Engage.
 
 ## What is an agentic user?
 An agentic user is the runtime identity that appears in your organization. Agentic users are a specialized subtype of user identity designed specifically for agents. Documentation can be found here: [Agentic User](https://learn.microsoft.com/en-us/microsoft-agent-365/developer/identity#agent-user) and [Agent Identity](https://learn.microsoft.com/en-us/entra/agent-id/agent-identities)
@@ -11,11 +15,13 @@ An agentic user is backed by an agent identity, which is backed by an agent blue
 
 ## Prerequisites
 
+Use a test account where you are a Global Administrator or have the ability to create users, assign licenses, and grant permissions. The following are required:
+
 - Access to the [Microsoft Entra admin center](https://entra.microsoft.com/)
 - Access to the [Microsoft Teams Developer Portal](https://dev.teams.microsoft.com/)
 - Access to [Microsoft Graph Explorer](https://developer.microsoft.com/graph/graph-explorer) If you are using Graph Explorer for the first time, please refer to the [Graph Explorer Troubleshooting](graphExplorerHelp/Readme.md) guide for help signing in and granting permissions.
 - Permissions to create agent identities, users, and OAuth permission grants
-- An available Microsoft 365 E3 (or Teams) license
+- An available Microsoft 365 E3 (or any M365) license
 
 
 ## 1. Create an Agent Blueprint
@@ -163,6 +169,5 @@ Content-Type: application/json
 
 Note: For the message to actually reach your server and for your server to respond back, the server endpoint needs to be configured for this agent blueprint on the Developer Portal.
 
-This step will be done once a sample is up and running on local machine and is tunned to internet via ngrok (or any other tunnelling software). Follow the sample's readme to set up the sample and configure the endpoint in the developer portal.
+This step will be done once a sample is up and running on local machine and is tunned to internet via devtunnel (or any other tunnelling software). Follow the next lab to set up a sample and configure the endpoint for the agent blueprint.
 
-As next steps, set up the sample [1 - C# Hello world](./1-csharp-hello-world/Readme.md) The setup guide contains instructions on how to configure the endpoint in the developer portal for the agent blueprint. Once that is done, you can send a message to the agentic user and verify that your server receives it and responds back.
