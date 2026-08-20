@@ -20,7 +20,7 @@ winget install Microsoft.devtunnel
 devtunnel user login
 ```
 
-NOTE: Login with the same account that you are using for Microsoft 365 test account. 
+NOTE: Login with the same account that you are using for Microsoft 365 testing. 
 
 ## Step 3: Create a dev tunnel on your local machine
 
@@ -50,3 +50,5 @@ So for the above example, the callback URL will be:
 ```
 https://b1lvjmzn-3978.asse.devtunnels.ms/api/messages
 ```
+
+This is the URL that will be updated in [Teams Developer Portal](https://dev.teams.microsoft.com/tools/agent-blueprint) for your agent blueprint to enable communication between the agent and Microsoft 365 services.

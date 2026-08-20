@@ -1,0 +1,7 @@
+# .NET / Visual Studio generated files
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+appsettings.json
