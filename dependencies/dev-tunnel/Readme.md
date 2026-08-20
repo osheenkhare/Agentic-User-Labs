@@ -52,3 +52,5 @@ https://b1lvjmzn-3978.asse.devtunnels.ms/api/messages
 ```
 
 This is the URL that will be updated in [Teams Developer Portal](https://dev.teams.microsoft.com/tools/agent-blueprint) for your agent blueprint to enable communication between the agent and Microsoft 365 services.
+
+Note: Everytime you re-run the dev tunnel, the dev tunnel URL will change, so you will need to update the callback URL in Teams Developer Portal with the new dev tunnel URL.
