@@ -16,6 +16,7 @@ Hands-on labs and sample implementations for building, configuring, and extendin
 | 8. Participate Naturally in Conversations | The agent can react to messages and reply when relevant. | React to text/messages; generate contextual replies | 40 min | 15 min |
 | 9. Participate in Channels and Threads | The agent can participate correctly in channel conversations and threaded discussions. | Handle channel messages; create threaded replies; preserve conversation context | 45 min | 20 min |
 | 10. Migrate an Existing Digital Worker | An existing Digital Worker is migrated to the Agentic User model without disrupting its existing experience. | Create the new DW/AU; release the previous email identity; update existing logic to point to the new identity/person via deep link or GC | Implementation-dependent | Implementation-dependent |
+| [11. Send Progressive Updates](./labs/lab-11-progressive-updates/Readme.md) | Long-running work continues after the incoming request and reports visible progress. | Queue background work; edit one progress message; update a work-plan card; validate work beyond two minutes | 60 min | 30 min |
 
 # Pre requsites
 - [Microsoft dev-tunnel](./dependencies/dev-tunnel/README.md)
